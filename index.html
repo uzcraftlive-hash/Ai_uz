@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100MB+ AI Database Download</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-family: Arial; color: #fff; min-height: 100vh; padding: 20px; display: flex; align-items: center; justify-content: center; }
+    .box { background: rgba(15, 23, 42, 0.95); padding: 40px; border-radius: 20px; text-align: center; max-width: 600px; }
+    h1 { font-size: 32px; margin-bottom: 20px; }
+    p { color: #94a3b8; margin-bottom: 15px; font-size: 14px; line-height: 1.6; }
+    .file-info { background: rgba(30, 41, 59, 0.6); padding: 20px; border-radius: 12px; margin: 20px 0; }
+    .size { font-size: 28px; font-weight: bold; color: #667eea; margin: 10px 0; }
+    .progress { width: 100%; height: 20px; background: #0f3460; border-radius: 10px; margin: 15px 0; overflow: hidden; }
+    .bar { height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); width: 0%; transition: width 0.3s; }
+    .btn { padding: 15px 30px; background: #00ff88; color: #000; border: none; border-radius: 10px; font-weight: bold; font-size: 16px; cursor: pointer; margin: 10px 5px; }
+    .btn:hover { background: #00dd77; }
+    .code { background: #0f1720; padding: 15px; border-radius: 10px; margin: 20px 0; text-align: left; overflow-x: auto; font-size: 12px; font-family: monospace; border: 1px solid #667eea; }
+    .copy { padding: 8px 12px; background: #667eea; border: none; color: #fff; border-radius: 5px; cursor: pointer; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🤖 HAQIQIY 100MB+ AI DATABASE</h1>
+    <p>Bu yerda download link va yaratish usuli bor</p>
+
+    <div class="file-info">
+      <div class="size">📊 100MB - 500MB</div>
+      <p>Entries: 500,000+</p>
+      <p>Format: .txt, .json, .sql</p>
+      <p>Kompyuter: Python script orqali</p>
+    </div>
+
+    <h3>📥 OPTION 1: Download Hozir</h3>
+    <p>Quyidagi platformalardan haqiqiy 100MB+ database yuklab olishingiz mumkin:</p>
+    
+    <div style="text-align: left; margin: 20px 0; background: #0f3460; padding: 15px; border-radius: 10px;">
+      <p>✅ <strong>Kaggle Datasets:</strong></p>
+      <p style="font-size: 12px; color: #94a3b8;">kaggle.com - "Offline AI Database" yoki "500000 QA pairs"</p>
+      
+      <p style="margin-top: 15px;">✅ <strong>GitHub:</strong></p>
+      <p style="font-size: 12px; color: #94a3b8;">github.com - "awesome-datasets" repolarida</p>
+      
+      <p style="margin-top: 15px;">✅ <strong>Internet Archive:</strong></p>
+      <p style="font-size: 12px; color: #94a3b8;">archive.org - "OpenQA" yoki "Wikipedia dumps"</p>
+      
+      <p style="margin-top: 15px;">✅ <strong>Google Drive / Mega:</strong></p>
+      <p style="font-size: 12px; color: #94a3b8;">Drive qolsiz 100MB+ file saqlashingiz mumkin</p>
+    </div>
+
+    <h3>⚙️ OPTION 2: Python Script - Haqiqiy 100MB+ File Yarating</h3>
+    <p style="text-align: left; margin-top: 20px;">Kompyuteringizda <strong>Python</strong> o'rnating, keyin quyidagi script ishlatishingiz mumkin:</p>
+
+    <div class="code">
+# install: pip install faker
+from faker import Faker
+import json
+import random
+
+fake = Faker(['uz_UZ', 'ru_RU', 'en_US'])
+
+# 500,000 ta Q&A yarating
+data = []
+topics = ['uzbekistan', 'tarix', 'fan', 'matematika', 'texnologiya', 'sog\'lik', 'sport']
+
+for i in range(500000):
+    topic = random.choice(topics)
+    question = fake.sentence()
+    answer = fake.text(max_nb_chars=200)
+    
+    data.append({
+        'id': i,
+        'topic': topic,
+        'question': question,
+        'answer': answer,
+        'timestamp': fake.iso8601()
+    })
+    
+    if i % 10000 == 0:
+        print(f"Generated {i}/500000...")
+
+# JSON faylga saqlang
+with open('ai_database_100mb.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("✅ Yaratildi: ai_database_100mb.json (~100MB)")
+    </div>
+
+    <button class="copy" onclick="copyCode()">📋 Kodini Nusxalash</button>
+
+    <h3>📦 OPTION 3: Haqiqiy Ma'lumot Manbalari</h3>
+    <p style="text-align: left;">Bu yerdan HAQIQIY 100MB+ database yuklab olishingiz mumkin:</p>
+
+    <div style="text-align: left; margin: 20px 0; background: #0f3460; padding: 15px; border-radius: 10px;">
+      <p>📚 <strong>Wikipedia Dump:</strong> dumps.wikimedia.org</p>
+      <p style="font-size: 11px; color: #94a3b8;">- Butun Wikipedia (uz, ru, en) - 50GB+</p>
+      
+      <p style="margin-top: 10px;">📖 <strong>Common Crawl:</strong> commoncrawl.org</p>
+      <p style="font-size: 11px; color: #94a3b8;">- 200+ terabayt web ma'lumotlari</p>
+      
+      <p style="margin-top: 10px;">🎓 <strong>Google Books:</strong> books.google.com</p>
+      <p style="font-size: 11px; color: #94a3b8;">- 40 million kitob indekslangan</p>
+      
+      <p style="margin-top: 10px;">🔬 <strong>arXiv:</strong> arxiv.org</p>
+      <p style="font-size: 11px; color: #94a3b8;">- 2 million ilmiy maqolalar</p>
+      
+      <p style="margin-top: 10px;">💬 <strong>Reddit Dumps:</strong> pushshift.io</p>
+      <p style="font-size: 11px; color: #94a3b8;">- 500 milliyon Reddit postlari</p>
+      
+      <p style="margin-top: 10px;">🌐 <strong>Common Crawl Web Data:</strong> petabytes</p>
+      <p style="font-size: 11px; color: #94a3b8;">- Butun internetning snapshot'i</p>
+    </div>
+
+    <h3>🛠️ OPTION 4: AWS / Google Cloud - Haqiqiy Dataset</h3>
+    <p style="text-align: left;">Katta shirkatlarda ehtiar qilingan ma'lumotlar:</p>
+
+    <div style="text-align: left; margin: 20px 0; background: #0f3460; padding: 15px; border-radius: 10px;">
+      <p>☁️ <strong>AWS Public Dataset:</strong></p>
+      <p style="font-size: 11px; color: #94a3b8;">registry.opendata.aws - 500+ datasets</p>
+      
+      <p style="margin-top: 10px;">☁️ <strong>Google Cloud Public Datasets:</strong></p>
+      <p style="font-size: 11px; color: #94a3b8;">cloud.google.com/datasets - 150+ datasets</p>
+      
+      <p style="margin-top: 10px;">☁️ <strong>Azure Open Datasets:</strong></p>
+      <p style="font-size: 11px; color: #94a3b8;">microsoft.com/en-us/research - 100+ datasets</p>
+    </div>
+
+    <h3>✅ APK YASASH UCHUN</h3>
+    <p style="text-align: left;">100MB+ database ni APK ga qo'shish:</p>
+
+    <div style="text-align: left; margin: 20px 0; background: #0f3460; padding: 15px; border-radius: 10px;">
+      <p>1️⃣ <strong>HTML + JavaScript</strong></p>
+      <p style="font-size: 11px; color: #94a3b8;">- Compressed JSON (gzip) - 30MB</p>
+      
+      <p style="margin-top: 10px;">2️⃣ <strong>SQLite Database</strong></p>
+      <p style="font-size: 11px; color: #94a3b8;">- assets/ papkasiga qo'shing - 50-100MB</p>
+      
+      <p style="margin-top: 10px;">3️⃣ <strong>Cordova / Capacitor</strong></p>
+      <p style="font-size: 11px; color: #94a3b8;">- Veb appni APK ga aylantiring</p>
+      
+      <p style="margin-top: 10px;">4️⃣ <strong>Android Studio</strong></p>
+      <p style="font-size: 11px; color: #94a3b8;">- Kotlin + Room Database + Assets</p>
+    </div>
+
+    <h3>📥 HOZIR BOSHLANG!</h3>
+    <button class="btn" onclick="generateDummyFile()">📦 Test File Yarating (10MB)</button>
+    <button class="btn" onclick="window.location.href='https://archive.org/download/'">🌐 Archive.org ga Boring</button>
+
+    <p style="margin-top: 30px; color: #64748b; font-size: 12px;">
+      💡 Eslatma: HTML brauzerda ko'rsetadi, lekin haqiqiy 100MB+ file ishlashi uchun Python script yoki cloud storage kerak.
+    </p>
+  </div>
+
+  <script>
+    function copyCode() {
+      const code = `# install: pip install faker
+from faker import Faker
+import json
+import random
+
+fake = Faker(['uz_UZ', 'ru_RU', 'en_US'])
+
+# 500,000 ta Q&A yarating
+data = []
+topics = ['uzbekistan', 'tarix', 'fan', 'matematika', 'texnologiya']
+
+for i in range(500000):
+    topic = random.choice(topics)
+    question = fake.sentence()
+    answer = fake.text(max_nb_chars=200)
+    
+    data.append({
+        'id': i,
+        'topic': topic,
+        'question': question,
+        'answer': answer
+    })
+    
+    if i % 10000 == 0:
+        print(f"Generated {i}/500000...")
+
+with open('ai_database_100mb.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("✅ Yaratildi: ai_database_100mb.json")`;
+      
+      navigator.clipboard.writeText(code);
+      alert('✅ Python kod nusxalandi! Terminal/Command Prompt da o\'tkazing.');
+    }
+
+    function generateDummyFile() {
+      let content = '';
+      for (let i = 0; i < 500000; i++) {
+        content += `Q: Savol ${i}\nA: Javob ${i}. Bu ma'lumotni saqlash uchun ko'p joyga kerak. Tekst qayta-qayta. `;
+        if (i % 1000 === 0) console.log(`Generated ${i}/500000...`);
+      }
+      
+      const blob = new Blob([content], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'test_ai_database.txt';
+      a.click();
+      
+      alert(`✅ Test fayl yuklab olindi! (${Math.round(blob.size / 1024 / 1024)}MB)`);
+    }
+  </script>
+</body>
+</html>
